@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-backstage-server
+  description: An example of a Backstage application.
+  annotations:
+    harness.io/pipelines: |
+      deployLambda: https://app.harness.io/ng/account/bUsq-csyTMiY1pL0ln9kaA/module/cd/orgs/default/projects/default_project/pipelines/Deploy_Lambda_Pipeline/pipeline-studio?storeType=INLINE
+spec:
+  type: service
+  owner: danieljburns143@gmail.com
+  lifecycle: experimental
